@@ -4,6 +4,7 @@
 ## Write a short comment describing this function
 
 # usage: 
+# note: mat1 must have an inverse (see https://cran.r-project.org/web/packages/matlib/vignettes/inv-ex1.html)
 # mat1 <- matrix(c(5,1,0,3,-1,2,4,0,-1), nrow=3, ncol=3, byrow=TRUE)
 # cm <- makeCacheMatrix(mat1)
 # cacheSolve(cm)
