@@ -10,6 +10,9 @@
 # cacheSolve(cm)
 # cacheSolve(cm)
 
+#makeCacheMatrix manipulates a matrix object list 
+#used in conjunction with cacheSolve function
+
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
         set <- function(y) {
@@ -25,7 +28,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cacheSolve takes a matrix list object created by makeCacheMatrix and either solves it (Inverse) or returns that solve from cache
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
